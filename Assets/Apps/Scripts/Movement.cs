@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[requiredComponent(typeof(RigidBody2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 
 public class Movement : MonoBehaviour
 {
@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
 
     private void UpdatePosition()
     {
-        Vector velocity = rb2d.Velocity;
+        Vector2 velocity = rb2d.velocity;
         velocity.x = direction * speed;
         rb2d.velocity = velocity;
     }
