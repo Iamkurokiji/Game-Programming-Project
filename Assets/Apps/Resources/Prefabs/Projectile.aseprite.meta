@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -122,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Frame_0
+  - name: Projectile_Frame_0
     originalName: 
     pivot: {x: 0.5, y: -1.0714287}
     alignment: 9
@@ -133,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 4
       height: 14
-    spriteID: 007b3868af34a0e4fb17b209b64fe0c3
+    spriteID: 9dd3e82f138a559468fc58b66cf7346f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_1
+  - name: Projectile_Frame_1
     originalName: 
     pivot: {x: 0.5, y: -1.0714287}
     alignment: 9
@@ -153,7 +152,7 @@ ScriptedImporter:
       y: 26
       width: 4
       height: 14
-    spriteID: 2439cca57d11bb64e9e040381a6b2300
+    spriteID: c0a6f845c77f09347becf6e649ef6d4f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -162,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 26}
-  - name: Frame_2
+  - name: Projectile_Frame_2
     originalName: 
     pivot: {x: 0.5, y: -1.0714287}
     alignment: 9
@@ -173,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 2
       height: 14
-    spriteID: e56fdb54e91dcc049a4e22cccd80703c
+    spriteID: 7fef713828d268949951ede8e7744cd8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 40, y: 4}
-  - name: Frame_3
+  - name: Projectile_Frame_3
     originalName: 
     pivot: {x: 0.5, y: -1.0714287}
     alignment: 9
@@ -193,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 4
       height: 14
-    spriteID: 4b7fab1d617fb5148b82c8cc7c2b6719
+    spriteID: e4261f59711de534eab44a65813df7b5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -202,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 16, y: 4}
-  - name: Frame_4
+  - name: Projectile_Frame_4
     originalName: 
     pivot: {x: 0.5, y: -1.0714287}
     alignment: 9
@@ -213,7 +212,7 @@ ScriptedImporter:
       y: 26
       width: 4
       height: 14
-    spriteID: f3facfa5ed240714887ecc611321a73f
+    spriteID: ff14f7a189d16dc409eb453671013f41
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -222,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 16, y: 26}
-  - name: Frame_5
+  - name: Projectile_Frame_5
     originalName: 
     pivot: {x: 0.5, y: -1.0714287}
     alignment: 9
@@ -233,7 +232,7 @@ ScriptedImporter:
       y: 4
       width: 4
       height: 14
-    spriteID: 2e116153ab4dcc94192d155a7bd33b6d
+    spriteID: 8321577a0cf4c764b9f7bf9c35d27151
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -242,7 +241,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 28, y: 4}
-  - name: Frame_6
+  - name: Projectile_Frame_6
     originalName: 
     pivot: {x: 0.5, y: -1.0714287}
     alignment: 9
@@ -253,7 +252,7 @@ ScriptedImporter:
       y: 26
       width: 2
       height: 14
-    spriteID: eab9b2544e435df4fb81b12b714a1774
+    spriteID: edfc89f69eee3074e93932290f131961
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,7 +261,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 40, y: 26}
-  - name: Frame_7
+  - name: Projectile_Frame_7
     originalName: 
     pivot: {x: 0.6666667, y: -1.0714287}
     alignment: 9
@@ -273,7 +272,7 @@ ScriptedImporter:
       y: 26
       width: 3
       height: 14
-    spriteID: e2697e9111ffd704997d112e9b655517
+    spriteID: 8499b18f2accdcd47bac9d8b6fa696f1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -285,89 +284,76 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    uuid:
-      value0: 469617985
-      value1: 0
-      value2: 0
-      value3: 0
-    guid: 0
+    guid: 1754746317
     name: Projectile
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Projectile_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
-      spriteId: 007b3868af34a0e4fb17b209b64fe0c3
-    - name: Frame_1
+      spriteId: 9dd3e82f138a559468fc58b66cf7346f
+    - name: Projectile_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
-      spriteId: 2439cca57d11bb64e9e040381a6b2300
-    - name: Frame_2
+      spriteId: c0a6f845c77f09347becf6e649ef6d4f
+    - name: Projectile_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 15
         width: 2
         height: 14
-      spriteId: e56fdb54e91dcc049a4e22cccd80703c
-    - name: Frame_3
+      spriteId: 7fef713828d268949951ede8e7744cd8
+    - name: Projectile_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
-      spriteId: 4b7fab1d617fb5148b82c8cc7c2b6719
-    - name: Frame_4
+      spriteId: e4261f59711de534eab44a65813df7b5
+    - name: Projectile_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
-      spriteId: f3facfa5ed240714887ecc611321a73f
-    - name: Frame_5
+      spriteId: ff14f7a189d16dc409eb453671013f41
+    - name: Projectile_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
-      spriteId: 2e116153ab4dcc94192d155a7bd33b6d
-    - name: Frame_6
+      spriteId: 8321577a0cf4c764b9f7bf9c35d27151
+    - name: Projectile_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 15
         width: 2
         height: 14
-      spriteId: eab9b2544e435df4fb81b12b714a1774
-    - name: Frame_7
+      spriteId: edfc89f69eee3074e93932290f131961
+    - name: Projectile_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 3
         height: 14
-      spriteId: e2697e9111ffd704997d112e9b655517
+      spriteId: 8499b18f2accdcd47bac9d8b6fa696f1
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -423,4 +409,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 64, y: 64}
