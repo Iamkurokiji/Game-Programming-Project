@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -164,22 +165,29 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1023291533
+    uuid:
+      value0: 2583057663
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1711909633
     name: Alien
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Alien_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 16
         width: 23
         height: 16
       spriteId: 3e87b593128950d45881e6b37aed6de1
-    - name: Alien_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 16
@@ -241,3 +249,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
+  previousTextureSize: {x: 32, y: 64}

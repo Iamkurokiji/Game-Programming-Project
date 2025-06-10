@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -284,70 +285,83 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1754746317
+    uuid:
+      value0: 469617985
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 469617985
     name: Projectile
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Projectile_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
       spriteId: 9dd3e82f138a559468fc58b66cf7346f
-    - name: Projectile_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
       spriteId: c0a6f845c77f09347becf6e649ef6d4f
-    - name: Projectile_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 15
         width: 2
         height: 14
       spriteId: 7fef713828d268949951ede8e7744cd8
-    - name: Projectile_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
       spriteId: e4261f59711de534eab44a65813df7b5
-    - name: Projectile_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
       spriteId: ff14f7a189d16dc409eb453671013f41
-    - name: Projectile_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
         width: 4
         height: 14
       spriteId: 8321577a0cf4c764b9f7bf9c35d27151
-    - name: Projectile_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 15
         width: 2
         height: 14
       spriteId: edfc89f69eee3074e93932290f131961
-    - name: Projectile_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 15
@@ -409,3 +423,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
+  previousTextureSize: {x: 64, y: 64}
