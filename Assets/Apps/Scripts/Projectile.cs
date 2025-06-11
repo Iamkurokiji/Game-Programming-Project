@@ -5,8 +5,8 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float moveSpeed;
-
     private float upperYBound;
+    private PointManager pointManager;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,8 @@ public class Projectile : MonoBehaviour
 
         Vector3 topRight = Camera.main.ViewportToWorldPoint(new Vector3(1, 1, zDist));
         upperYBound = topRight.y;
+
+        pointManager = GameObject.Find("PointManager").GetComponent<PointManager>();
     }
 
     // Update is called once per frame
@@ -35,6 +37,7 @@ public class Projectile : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            pointManager.UpdateScore(50);
         }
     }
 }
