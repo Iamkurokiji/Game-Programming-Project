@@ -10,20 +10,20 @@ public class PlayerLives : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.gameObject.tag == "Alien")
         {
-            Destroy(collision.collider .gameObject);
+            Destroy(collision.collider.gameObject);
             lives -= 1;
             for (int i = 0; i < LivesUI.Length; i++)
             {
@@ -37,9 +37,33 @@ public class PlayerLives : MonoBehaviour
                 }
             }
             if (lives <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy Projectile")
+        {
+            Destroy(collision.gameObject);
+            lives -= 1;
+            Debug.Log("lives: " + lives);
+            for (int i = 0; i < LivesUI.Length; i++)
+            {
+                if (i < lives)
                 {
-                    Destroy(gameObject);
+                    LivesUI[i].enabled = true;
                 }
+                else
+                {
+                    LivesUI[i].enabled = false;
+                }
+            }
+            if (lives <= 0)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
